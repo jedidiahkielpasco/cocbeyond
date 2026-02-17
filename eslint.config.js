@@ -16,6 +16,7 @@ export default [
         sourceType: 'module',
       },
     },
+    // Test Push
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
