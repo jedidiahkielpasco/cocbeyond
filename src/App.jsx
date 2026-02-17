@@ -479,7 +479,7 @@ function App() {
                 );
             case 4:
                 return (
-                    <div className="bg-eldritch-panel rounded-xl shadow-lg p-6 border border-eldritch-accent mb-6">
+                    <div className="bg-eldritch rounded-xl shadow-lg p-6 border border-eldritch-accent mb-6">
                         <h2 className="text-xl font-bold mb-6 text-eldritch-highlight uppercase tracking-wide">Backstory & Details</h2>
                         <div className="flex flex-col md:flex-row gap-6">
 
@@ -672,7 +672,7 @@ function App() {
                         </div>
                     </div>
                 ) : (
-                    <div className="bg-eldritch-panel/40 rounded-xl shadow-md p-6 border border-yellow-600 text-center text-yellow-200">
+                    <div className="bg-eldritch/40 rounded-xl shadow-md p-6 border border-yellow-600 text-center text-yellow-200">
                         <h2 className="text-xl font-bold uppercase tracking-wide mb-2">Character Sheet Locked</h2>
                         <p className="mb-1">Please roll your Attributes and fill out the Identity information to continue.</p>
                     </div>
@@ -684,7 +684,7 @@ function App() {
 
     return (
         <>
-            <div className="relative z-0 min-h-screen bg-[#000000] text-black p-6 font-mono rounded-xl">
+            <div className="relative z-0 min-h-screen bg-[eldritch] text-black p-6 font-mono rounded-xl">
                 <div className="flex justify-between items-center mb-6 border-b-4 border-eldritch-accent text-eldritch-highlight pb-2">
                     <h1 className="text-4xl font-extrabold font-cinzel mb-6 text-left tracking-wide uppercase">
                         Call of Cthulhu Character Creator
