@@ -684,7 +684,7 @@ function App() {
 
     return (
         <>
-            <div className="relative z-0 min-h-screen bg-[#5D4037] text-black p-6 font-mono rounded-xl">
+            <div className="relative z-0 min-h-screen bg-[#000000] text-black p-6 font-mono rounded-xl">
                 <div className="flex justify-between items-center mb-6 border-b-4 border-eldritch-accent text-eldritch-highlight pb-2">
                     <h1 className="text-4xl font-extrabold font-cinzel mb-6 text-left tracking-wide uppercase">
                         Call of Cthulhu Character Creator
